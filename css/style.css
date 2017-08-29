@@ -1,0 +1,40 @@
+body {
+	background-color: #ccc;
+}
+
+/* Калькулятор */
+.l2b_quantity_wrp {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 220px;
+	margin: 200px auto;
+}
+
+.l2b_quantity {
+  text-align: left;
+  width: 80px;
+  box-sizing: border-box;
+  padding: 2px 4px;
+}
+
+.q_txt {
+	text-align: center;
+  margin: 2px 0;
+}
+
+.l2b_quantity_wrp label {
+	background-color: #fec71e;
+  border: 1px solid #fec71e;
+  box-shadow: 0 0 1px #000;
+}
+
+.l2b_q_arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	color: #fec71e;
+	text-shadow: 0 0 1px #000;
+}
